@@ -1,0 +1,22 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "singleGame",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "player2ID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "gameTime",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "player1Name",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}
